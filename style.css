@@ -3,6 +3,8 @@ body {
 }
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .stylea {
     color: var(--Dark-01, #181818);
@@ -14,6 +16,7 @@ font-weight: 800;
  }
  nav ul{
     display: flex;
+    align-items: center;
  }
 nav li {
     list-style: none;
@@ -22,9 +25,11 @@ nav li {
 nav a{
     text-decoration: none;
     color: gray;
+     
 }
 .stylec{
         border-radius: 5px;
-        color: rgb(7, 233, 249);
-        background: rgb(231, 140, 214);
+        color: rgb(22, 27, 25);
+        background: rgb(236, 255, 94);
 }
+ 
