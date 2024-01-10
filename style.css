@@ -109,13 +109,16 @@ margin: 35px 48px;
 
 }
 .elon{
-    color: #ff5900;
+    color: #413b38;
     text-align: center;
     font-size: 18px;
 }
 .main{
     max-width: 1140px;
     margin: 0 auto;
+}
+main section{
+    margin-top: 100px;
 }
 .about-info-container{
     display: flex;
@@ -132,27 +135,22 @@ margin: 35px 48px;
     padding: 30px 150px;
 }
 .skill{
-border-radius: 5px;
-background: #f9e8e8;
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-width: 267px;
-height: 377px;
+  padding: 30px;
+   box-shadow: 0px 6px 50px 0px rgba(179, 177, 177, 0.96);
+  background-color: rgb(234, 234, 233);
+
 }
 .skill-title{
-    color: var(--Dark-01, #181818);
-text-align: center;
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  
 }
 .skill-discription{
-    color: var(--Dark-03, #757575);
-font-family: Open Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 175% */
-width: 201px;
+ color: #757575;
+}
+.skills-container{
+    display: flex;
+    padding: 30px 30px;
+    gap: 24px;
+}
+.section-title{
+    text-align: center;
 }
